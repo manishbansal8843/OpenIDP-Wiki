@@ -75,7 +75,7 @@ It is important to understand the basic difference between configuring artifact 
 
 • Login to IDP using credentials shared by the IDP administrator
 
-![](https://github.com/Infosys/openIDP/blob/master/docs/capabilities_images/login_page.PNG)
+![](https://github.com/Infosys/openIDP/blob/master/docs/capabilities_images/login_page.png)
 Figure 1 - IDP Login Page
 
 • On successful login, you will be redirected to the history page which would show you a list of pipelines that you had previously created.
