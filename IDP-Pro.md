@@ -30,3 +30,5 @@ In IDP PrO, users can link and update the ALM work items from IDP with results o
 ### Unified Dashboard
 
 The IDP PrO dashboard is augmented with powerful views for ALM traceability, Artifact View, Environment Dashboard, SAP dashboards, technology specific dashboard views.
+
+Contact us at IDP_OSS@infosys.com for more details about IDP PrO.
