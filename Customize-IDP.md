@@ -43,8 +43,8 @@ b. Inside Pega.groovy, the steps for configuration of the pipeline will be there
 
 ### Custom Plugins
 
-|Sl.No	|PluginName	|Description	|Type|
-|-------|---------------|---------------|----|
+|Sl.No	|PluginName	|Description	|
+|-------|---------------|---------------|
 |1	|tg-copyslave	|It is used to create slave from the master slave in IDP, called TG_MASTER_SLAVE.	|
 |2	|tg-addprojectrole	|It is used to automatically create roles and users in Jenkins and also map the users with the roles|
 |3	|tg-credentials|It is used to add credentials.	|
