@@ -126,7 +126,7 @@ Figure 6 - Add Release
 ![](https://github.com/Infosys/openIDP/blob/master/docs/capabilities_images/update_release.PNG)
 Figure 7 - Active Releases
 
-![](https://github.com/Infosys/openIDP/blob/master/docs/capabilities_images/active_Release.PNG)
+![](https://github.com/Infosys/openIDP/blob/master/docs/capabilities_images/active_release.PNG)
 Figure 8 - Release History
 
 ## Schedule Pipeline
