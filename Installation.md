@@ -114,7 +114,6 @@ export HOSTNAME=$(hostname) change it to export HOSTNAME='ip.of.the.system'
 4.```[root@hostname]# sh build.sh```
 
 **Note:** No manual inputs are required from user’s end. After successful completion of the script user will be redirected to terminal prompt.
-Once after successful completion of the script you will be redirected to terminal prompt.
 
 **Note:** if you want to skip the rebuild or re-deploy your IDP_OSS you can change the value of SKIP_BUILD and REMOVE_OLDER set to true/false
 
