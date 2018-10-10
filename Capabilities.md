@@ -162,7 +162,6 @@ It shows the results of a pipeline for every execution triggered in IDP. In this
 Figure 12 - Developer Dashboard
 
 
-Visit this [page](https://github.com/Infosys/openIDP/wiki/IDP-Pro) to get details about additional dashboard views and other capabilities in IDP PrO version.
 
 
 
