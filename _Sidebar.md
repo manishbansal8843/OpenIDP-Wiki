@@ -27,7 +27,7 @@
 
 [Supported Tools](https://github.com/Infosys/openIDP/wiki/Supported-Tools)
 
-[IDP PrO Features](https://github.com/Infosys/openIDP/wiki/IDP-PrO)
+
 
 
 
