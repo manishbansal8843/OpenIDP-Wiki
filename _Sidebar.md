@@ -29,7 +29,7 @@
 
 [IDP PrO Features](https://github.com/Infosys/openIDP/wiki/IDP-PrO)
 
-[FAQs](https://github.com/Infosys/openIDP/wiki/FAQs)
+
 
 
 
