@@ -153,122 +153,123 @@ Default Value: true<br>
 Allowed Values: true | false<br>
 Implications: If set false, will skip the test during build. If set true, then test cases will execute with build section. 
 <br>
-**REMOVE_OLDER**
-Default Value: true
-Allowed Values: true | false
-Implications: If set false, will skip the removing older IDP stack from docker. If set true, then script will remove older IDP stack from docker, in case stack is not deployed earlier, then it will just pass.
+<br>
+**REMOVE_OLDER**<br>
+Default Value: true<br>
+Allowed Values: true | false<br>
+Implications: If set false, will skip the removing older IDP stack from docker. If set true, then script will remove older IDP stack from docker, in case stack is not deployed earlier, then it will just pass.<br><br>
 
-**SKIP_BUILD**
-Default Value: false
-Allowed Values: true | false
-Implications: If set True, will skip the whole build section. Useful if only configuration refresh like IP/hostname update is required.
+**SKIP_BUILD**<br>
+Default Value: false<br>
+Allowed Values: true | false<br>
+Implications: If set True, will skip the whole build section. Useful if only configuration refresh like IP/hostname update is required.<br><br>
 
-**SKIP_CLOUD**
-Default Value: false
-Allowed Values: true | false
-Implications: If set True, will skip the Cloud Config Server Build Section. If SKIP_BUILD is set true, then this will have no effect
+**SKIP_CLOUD**<br>
+Default Value: false<br>
+Allowed Values: true | false<br>
+Implications: If set True, will skip the Cloud Config Server Build Section. If SKIP_BUILD is set true, then this will have no effect<br><br>
 
-**SKIP_EUREKA**
-Default Value: false
-Allowed Values: true | false
-Implications: If set True, will skip the Eureka Server Build Section. If SKIP_BUILD is set true, then this will have no effect
+**SKIP_EUREKA**<br>
+Default Value: false<br>
+Allowed Values: true | false<br>
+Implications: If set True, will skip the Eureka Server Build Section. If SKIP_BUILD is set true, then this will have no effect<br>
 
-**SKIP_SERVICES**
-Default Value: false
-Allowed Values: true | false
-Implications: If set True, will skip the Services Server Build Section. If SKIP_BUILD is set true, then this will have no effect
+**SKIP_SERVICES**<br>
+Default Value: false<br>
+Allowed Values: true | false<br>
+Implications: If set True, will skip the Services Server Build Section. If SKIP_BUILD is set true, then this will have no effect<br><br>
 
-**SKIP_DSL**
-Default Value: false
-Allowed Values: true | false
-Implications: If set True, will skip the DSL Server Build Section. If SKIP_BUILD is set true, then this will have no effect
+**SKIP_DSL**<br>
+Default Value: false<br>
+Allowed Values: true | false<br>
+Implications: If set True, will skip the DSL Server Build Section. If SKIP_BUILD is set true, then this will have no effect<br>
 
-**SKIP_UI**
-Default Value: false
-Allowed Values: true | false
+**SKIP_UI**<br>
+Default Value: false<br>
+Allowed Values: true | false<br>
 Implications: If set True, will skip the UI Server Build Section. If SKIP_BUILD is set true, then this will have no effect
+<br><br>
+**SKIP_SUBSCRIPTION**<br>
+Default Value: false<br>
+Allowed Values: true | false<br>
+Implications: If set True, will skip the Subscription Server Build Section. If SKIP_BUILD is set true, then this will have no effect<br>
 
-**SKIP_SUBSCRIPTION**
-Default Value: false
-Allowed Values: true | false
-Implications: If set True, will skip the Subscription Server Build Section. If SKIP_BUILD is set true, then this will have no effect
+**SKIP_DASHBOARD**<br>
+Default Value: false<br>
+Allowed Values: true | false<br>
+Implications: If set True, will skip the Dashboard Server Build Section. If SKIP_BUILD is set true, then this will have no effect<br><br>
 
-**SKIP_DASHBOARD**
-Default Value: false
-Allowed Values: true | false
-Implications: If set True, will skip the Dashboard Server Build Section. If SKIP_BUILD is set true, then this will have no effect
+**SKIP_SCHEDULER**<br>
+Default Value: false<br>
+Allowed Values: true | false<br>
+Implications: If set True, will skip the Scheduler Server Build Section. If SKIP_BUILD is set true, then this will have no effect<br><br>
 
-**SKIP_SCHEDULER**
-Default Value: false
-Allowed Values: true | false
-Implications: If set True, will skip the Scheduler Server Build Section. If SKIP_BUILD is set true, then this will have no effect
+**SKIP_JENKINS**<br>
+Default Value: false<br>
+Allowed Values: true | false<br>
+Implications: If set True, will skip the Jenkins Server Build Section. If SKIP_BUILD is set true, then this will have no effect<br><br>
 
-**SKIP_JENKINS**
-Default Value: false
-Allowed Values: true | false
-Implications: If set True, will skip the Jenkins Server Build Section. If SKIP_BUILD is set true, then this will have no effect
-
-**SKIP_TOOLS_CONFIG**
-Default Value: false
-Allowed Values: true | false
+**SKIP_TOOLS_CONFIG**<br>
+Default Value: false<br>
+Allowed Values: true | false<br>
 Implications: If set True, will skip the Configuration Section to configure tools for handshake across given hostname.
+<br><br>
+**LOCAL_M2_CACHE (Recommended)**<br>
+Default Value: NA<br>
+Allowed Values: "-v <Path_Of_M2_Folder>:/root/.m2/"<br>
+Implications: If set, all component build will pool common local M2 cache and will use settings.xml placed in that folder (helpful if you have Nexus server for all resolution)<br><br>
 
-**LOCAL_M2_CACHE (Recommended)**
-Default Value: NA
-Allowed Values: "-v <Path_Of_M2_Folder>:/root/.m2/"
-Implications: If set, all component build will pool common local M2 cache and will use settings.xml placed in that folder (helpful if you have Nexus server for all resolution)
+**ANSIBLE_IMAGE**<br>
+Default Value: williamyeh/ansible:centos7<br>
+Allowed Values: Any docker image having ansible.<br>
+Implications: This docker image will be used in configuration stage for configuring stack for handshake on provided hostname. <br><br>
 
-**ANSIBLE_IMAGE**
-Default Value: williamyeh/ansible:centos7
-Allowed Values: Any docker image having ansible.
-Implications: This docker image will be used in configuration stage for configuring stack for handshake on provided hostname. 
+**MAVEN_BUILD_IMAGE**<br>
+Default Value: maven:3.5.4-jdk-8-alpine<br>
+Allowed Values: Any docker image having maven.<br>
+Implications: This docker image will be used in build stage.<br><br>
 
-**MAVEN_BUILD_IMAGE**
-Default Value: maven:3.5.4-jdk-8-alpine
-Allowed Values: Any docker image having maven.
-Implications: This docker image will be used in build stage.
+**ANGULAR_BUILD_IMAGE**<br>
+Default Value: alexsuch/angular-cli:6.2<br>
+Allowed Values: Any docker image having Angular CLI.<br>
+Implications: This docker image will be used in UI build stage.<br><br>
 
-**ANGULAR_BUILD_IMAGE**
-Default Value: alexsuch/angular-cli:6.2
-Allowed Values: Any docker image having Angular CLI.
-Implications: This docker image will be used in UI build stage.
+**ARCHIVE_MGMT_IMAGE**<br>
+Default Value: alexsuch/angular-cli:6.2<br>
+Allowed Values: Any docker image having unzip binaries.<br>
+Implications: This docker image will be used in packaging manipulation in DSL build stage.<br><br>
 
-**ARCHIVE_MGMT_IMAGE**
-Default Value: alexsuch/angular-cli:6.2
-Allowed Values: Any docker image having unzip binaries.
-Implications: This docker image will be used in packaging manipulation in DSL build stage.
+**ARCHIVE_CREATE_IMAGE**<br>
+Default Value: kramos/alpine-zip<br>
+Allowed Values: Any docker image having zip binaries.<br>
+Implications: This docker image will be used in packaging of artifacts as per stack requirements.<br><br>
 
-**ARCHIVE_CREATE_IMAGE**
-Default Value: kramos/alpine-zip
-Allowed Values: Any docker image having zip binaries.
-Implications: This docker image will be used in packaging of artifacts as per stack requirements.
+**WGET_IMAGE**<br>
+Default Value: mwendler/wget<br>
+Allowed Values: Any docker image having wget binaries.<br>
+Implications: This docker image will be used in downloading packages as per stack requirements.<br><br>
 
-**WGET_IMAGE**
-Default Value: mwendler/wget
-Allowed Values: Any docker image having wget binaries.
-Implications: This docker image will be used in downloading packages as per stack requirements.
+**NETWORK_IMAGE**<br>
+Default Value: gochain/netstats:0.0.30<br>
+Allowed Values: Any docker image having network statistics binaries.<br>
+Implications: This docker image will be used in checking network as per stack requirements.<br><br>
 
-**NETWORK_IMAGE**
-Default Value: gochain/netstats:0.0.30
-Allowed Values: Any docker image having network statistics binaries.
-Implications: This docker image will be used in checking network as per stack requirements.
+**WGET_PROXY**<br>
+Default Value: NA<br>
+Allowed Values: "-e use_proxy=yes -e http_proxy=http(s)://<username>:<password>@<hostname>:<port> -e https_proxy= http(s)://<username>:<password>@<hostname>:<port> -e ftp_proxy= http(s)://<username>:<password>@<hostname>:<port>"<br>
+Implications: If set, all artifact downloads will use this proxy to fetch (helpful if you have Corporate firewall blocking downloads via wget)<br><br>
 
-**WGET_PROXY**
-Default Value: NA
-Allowed Values: "-e use_proxy=yes -e http_proxy=http(s)://<username>:<password>@<hostname>:<port> -e https_proxy= http(s)://<username>:<password>@<hostname>:<port> -e ftp_proxy= http(s)://<username>:<password>@<hostname>:<port>"
-Implications: If set, all artifact downloads will use this proxy to fetch (helpful if you have Corporate firewall blocking downloads via wget)
+**PIP_PROXY**<br>
+Default Value: NA<br>
+Allowed Values: "--proxy http(s)://<username>:<password>@<hostname>:<port>"<br>
+Implications: If set, ansible configuration module will use this proxy to fetch required python module (helpful if you have Corporate firewall blocking downloads via pip)<br><br>
 
-**PIP_PROXY**
-Default Value: NA
-Allowed Values: "--proxy http(s)://<username>:<password>@<hostname>:<port>"
-Implications: If set, ansible configuration module will use this proxy to fetch required python module (helpful if you have Corporate firewall blocking downloads via pip)
+**NPM_PROXY**<br>
+Default Value: NA<br>
+Allowed Values: "npm config set proxy http(s)://<username>:<password>@<hostname>:<port>&&npm config set https-proxy http(s)://<username>:<password>@<hostname>:<port>"<br>
+Implications: If set, NPM will use this proxy to fetch required node modules (helpful if you have Corporate firewall blocking downloads via npm)<br>
 
-**NPM_PROXY**
-Default Value: NA
-Allowed Values: "npm config set proxy http(s)://<username>:<password>@<hostname>:<port>&&npm config set https-proxy http(s)://<username>:<password>@<hostname>:<port>"
-Implications: If set, NPM will use this proxy to fetch required node modules (helpful if you have Corporate firewall blocking downloads via npm)
-
-**HOSTNAME**
-Default Value: $(hostname)
-Allowed Values: Hostname/IP Address of your system (Docker Master)
-Implications: By default, it will record your systems hostname for component handshake. If your system has some issue with DNS resolution of own hostname, its recommended set this variable to IP address of your system.
+**HOSTNAME**<br>
+Default Value: $(hostname)<br>
+Allowed Values: Hostname/IP Address of your system (Docker Master)<br>
+Implications: By default, it will record your systems hostname for component handshake. If your system has some issue with DNS resolution of own hostname, its recommended set this variable to IP address of your system.<br><br>
