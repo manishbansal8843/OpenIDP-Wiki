@@ -138,7 +138,7 @@ Eg: http://hostname:8080/idpapp/
 Try logging with the default username and password. 
 
 Username: **idpadmin**  
-Password: **idpadmin@123**.
+Password: **idpadmin@123**
 
 **Note**:
 Any new user will have default password as “**firstlogon@idp**”. This password can be changed after first logon.
