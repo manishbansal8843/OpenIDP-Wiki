@@ -148,11 +148,11 @@ If hostname details are unavailable, build script has to be modified to replace 
 
 The Build Script has environment variables which can help you switch the flow or behaviour of script from default options.
 
-**SKIP_TESTS**
-Default Value: true
-Allowed Values: true | false
+**SKIP_TESTS**<br>
+Default Value: true<br>
+Allowed Values: true | false<br>
 Implications: If set false, will skip the test during build. If set true, then test cases will execute with build section. 
-
+<br>
 **REMOVE_OLDER**
 Default Value: true
 Allowed Values: true | false
