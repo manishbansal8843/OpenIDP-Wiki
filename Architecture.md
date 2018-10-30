@@ -91,13 +91,6 @@ When a service is booting up, it fetches the appropriate config files from this 
 </tr>
 
 <tr>
-  <td align="center"><b>Continuous deployment</b></td>
-  <td>This components provides seamless ability to do cloud deployments. This is not yet part of the repository and will soon be released.
-  </td>
-  
-</tr>
-
-<tr>
   <td align="center"><b>Subscription</b></td>
   <td>This component maintains the license information for the platform and to enable subscription based access. This is not yet part of the repository and will soon be released.
   </td>
