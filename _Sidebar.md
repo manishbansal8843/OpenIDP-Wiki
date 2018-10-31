@@ -2,7 +2,7 @@
 
 [Home](https://github.com/Infosys/openIDP/wiki)
 
-* [What is Infosys DevOps Platform (IDP)?](https://github.com/Infosys/openIDP/wiki/IDP-Intro)
+* [What is Infosys DevOps Platform (IDP)?](https://github.com/Infosys/openIDP/wiki/IDP-Introduction)
 * [Capabilities](https://github.com/Infosys/openIDP/wiki/Capabilities)
 * [Architecture](https://github.com/Infosys/openIDP/wiki/Architecture)
 
