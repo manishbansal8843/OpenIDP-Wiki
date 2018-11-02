@@ -3,8 +3,8 @@
 
 ## Code Contribution :
 
-**Step 1:** Fork the Project to your local system
-i.	 Fork & Clone
+### Step 1: Fork the Project to your local system
+i.	 **Fork & Clone**
 
 •	Fork the repository from GitHub to have your copy of openIDP in your GitHub account 
 
@@ -18,9 +18,9 @@ e.g. % git clone https://github.com/InfyMegha/openIDP.git
 
 Now, you have a local copy of your fork of the openIDP repository!
 
-**Step 2:**  Branch to put changes
+### Step 2:  Branch to put changes
 
-i. Create branch 
+**i. Create branch **
 
    To create a branch, type the following (spaces won't be recognized in the branch name, so you will need to use a hyphen or underscore):
 ````
@@ -35,7 +35,7 @@ To switch to an existing branch, so you can work on it:
 e.g. % git checkout My_Feature
 ````
 
-**Step 3:**  View the changes you've made 
+### Step 3:  View the changes you've made 
 
 It's important to be aware of what's happening and the status of your changes. When you add, change, or delete files/folders, Git knows about it. To check the status of your changes:
 
@@ -50,7 +50,7 @@ To view the differences between your local, unstaged changes and the repository 
 % git diff
 ````
 
-**Step 4:** Commit
+### Step 4: Commit
 
 i. Use _**git add**_ to stage a local file/folder for committing. Then use _**git commit**_ to commit the staged files:
 
@@ -61,15 +61,14 @@ e.g % git add input.html  or %git add .
 e.g. % git commit –m “Add input file to repository”
 ````
  
-**Step 5:** Push the changes
+### Step 5:Push the changesTo push your changes to local repository
 
-To push your changes to local repository
 ````
 % git push <Remote_Name><Branch_Name>
 e.g.  %git push origin My_feature
 ````
 
-**Step 6:** Creating a pull request from a fork
+### Step 6: Creating a pull request from a fork
 
 Pull the desired branch from the upstream repository. This method will retain the commit history
 without modification.
@@ -90,11 +89,11 @@ vi.	Type a title and description for your pull request
 vii.	Click Create **pull request**.
  
 
-**Step 7:** Sign the CLA
+### Step 7: Sign the CLA
 
 Before we can accept the pull request, we first request people to sign a Contributor License Agreement (or CLA). Download the agreement PDF file (CLA_IDP.pdf) from the repository and sign and send it to [](IDP_OSS@infosys.com)
- 
-**Step 8:** Pull request closure
+###  
+### Step 8: Pull request closure
 
 Before we can accept the pull request, we check code quality through Codacy along with other parameters such as unit tests, code coverage, documentation and functional test results. 
 
