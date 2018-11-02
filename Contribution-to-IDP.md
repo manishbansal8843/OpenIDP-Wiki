@@ -78,14 +78,19 @@ without modification.
 e.g. %git pull https://github.com/InfyMegha/openIDP.git My_Changes
 ````
 If you've forked a repository and made changes to the fork, you can ask that the upstream repository accept your changes by creating a pull request.
+
 i.	Navigate to the original repository you created your fork from.
+
 ii.	To the right of the Branch menu, click New pull request.
+
 iii.	On the Compare page, click **compare across forks**.
 
-
 iv.	Confirm that the base fork is the repository you'd like to merge changes into. Use the base branch drop-down menu to select the branch of the upstream repository you'd like to merge changes into.
+
 v.	Use the head fork drop-down menu to select your fork, then use the compare branch drop-down menu to select the branch you made your changes in.
-vi.	Type a title and description for your pull request
+
+vi.	Type a title and description for your pull request.
+
 vii.	Click Create **pull request**.
  
 
