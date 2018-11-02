@@ -5,7 +5,9 @@
 
 **Step 1:** Fork the Project to your local system
 i.	 Fork & Clone
+
 •	Fork the repository from GitHub to have your copy of openIDP in your GitHub account 
+
 •	Clone the repository with HTTPs https://github.com/InfyMegha/openIDP.git
 
 ````
@@ -17,6 +19,7 @@ e.g. % git clone https://github.com/InfyMegha/openIDP.git
 Now, you have a local copy of your fork of the openIDP repository!
 
 **Step 2:**  Branch to put changes
+
 i. Create branch 
 
    To create a branch, type the following (spaces won't be recognized in the branch name, so you will need to use a hyphen or underscore):
