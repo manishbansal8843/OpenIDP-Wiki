@@ -91,7 +91,7 @@ vii.	Click Create **pull request**.
 
 ### Step 7: Sign the CLA
 
-Before we can accept the pull request, we first request people to sign a Contributor License Agreement (or CLA). Download the agreement PDF file (CLA_IDP.pdf) from the repository and sign and send it to [IDP_OSS@infosys.com](IDP_OSS@infosys.com)
+Before we can accept the pull request, we first request people to sign a Contributor License Agreement (or CLA). Download the agreement PDF file (CLA_IDP.pdf) from the repository and sign and send it to IDP_OSS@infosys.com
 
 ### Step 8: Pull request closure
 
