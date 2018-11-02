@@ -20,7 +20,7 @@ Now, you have a local copy of your fork of the openIDP repository!
 
 ### Step 2:  Branch to put changes
 
-**i. Create branch **
+**i. Create branch**
 
    To create a branch, type the following (spaces won't be recognized in the branch name, so you will need to use a hyphen or underscore):
 ````
@@ -43,7 +43,7 @@ It's important to be aware of what's happening and the status of your changes. W
 % git status
 ````
 
-_View differences _
+**View differences**
 
 To view the differences between your local, unstaged changes and the repository versions that you cloned or pulled, type:
 ````
@@ -92,7 +92,7 @@ vii.	Click Create **pull request**.
 ### Step 7: Sign the CLA
 
 Before we can accept the pull request, we first request people to sign a Contributor License Agreement (or CLA). Download the agreement PDF file (CLA_IDP.pdf) from the repository and sign and send it to [](IDP_OSS@infosys.com)
-###  
+
 ### Step 8: Pull request closure
 
 Before we can accept the pull request, we check code quality through Codacy along with other parameters such as unit tests, code coverage, documentation and functional test results. 
