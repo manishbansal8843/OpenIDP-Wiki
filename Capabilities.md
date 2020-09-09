@@ -41,16 +41,16 @@ IDP's pipelines are instrumented to collect data from every step and this amalga
 
 The different roles and permissions in IDP are depicted in the matrix below.
 
-Roles and Privileges |	Administrator | Release Manager	| Deployment/Environment Owner| Developer |
----------------------|:--------------|:------------------|:---------------------------|:----------|
-Create Pipeline	     |  👍 	     |        👎 	 |         👎 	              |  👎 	  |	
-Copy Pipeline	     |  👍 	     |        👎 	 |          👎 	              |  👎 	  |
-Edit Pipeline	     |  👍 	     |         👎 	 |          👎 	              |  👎 	  |
-Trigger Build	     |  👍 	     |          👍        |         👍                |   👍   |
-Trigger Deploy	     |  👎 	     |         👎 	 |             👍              |   👎  |
-Trigger Test	     |   👎 	     |           👎      |                👍           |     👎  |
-Release Management   |	 👎 	     |            👍     |           👎 	       |     👎  |
-View Dashboard	     |   👍          |              👍     |            👍             |     👍       |
+Roles and Privileges |	   Administrator    |   Release Manager	   | Deployment/Environment Owner|       Developer      |
+---------------------|:---------------------|:---------------------|:----------------------------|:---------------------|
+Create Pipeline	     |  :heavy_check_mark:  |         :x: 	   |           :x: 		 |        :x: 		|	
+Copy Pipeline	     |  :heavy_check_mark:  | 	      :x:          | 	       :x:		 | 	  :x: 		|
+Edit Pipeline	     |  :heavy_check_mark:  |         :x:	   | 	       :x:		 |  	  :x: 		|
+Trigger Build	     |  :heavy_check_mark:  |   :heavy_check_mark: |    :heavy_check_mark:  	 |  :heavy_check_mark:  |
+Trigger Deploy	     |          :x:         | 		:x:        |    :heavy_check_mark:       |   :x:  		|
+Trigger Test	     |          :x:         | :x: 		   |  :heavy_check_mark:	 |     :x:  		|
+Release Management   |          :x:         | :heavy_check_mark:   | :x:  			 |     :x:  		|
+View Dashboard	     |  :heavy_check_mark:  |    :heavy_check_mark:|  :heavy_check_mark:         |   :heavy_check_mark: |
 
 
 
